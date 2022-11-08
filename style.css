@@ -1,0 +1,54 @@
+@charset "utf-8";
+ul.menu {
+	margin:0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #cc0000;
+}
+
+ul.menu li{
+	width: 125px;
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+}
+
+ul.menu a{
+	background-color: #cc0000;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+ul.menu ul{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+ul.menu a:hover{
+	background-color: #ffdddd;
+	color:"dd0000";
+}
+
+ul.menu li:hover ul{
+	display: block;
+}
+
+header.hd{
+	background-color:black;
+	color: white;
+	display: block;
+}
+
+body header img{
+	width: 300px;
+	height: 125px;
+}
+
+#parent{
+	
+}
