@@ -106,6 +106,20 @@ ul.menu li:hover ul{
 	position: absolute;
 }
 
+#fooder{
+	width: 2000px;
+	text-align: center;
+	height: 100px;
+	background-color: gainsboro;
+	position: relative;
+}
+
+#fooder p{
+	width: 500px;
+	left: 18%;
+	position: absolute;
+}
+
 body{
 	background-color:blanchedalmond;
 }
