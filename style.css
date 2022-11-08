@@ -38,17 +38,74 @@ ul.menu li:hover ul{
 	display: block;
 }
 
-header.hd{
+#rogo{
 	background-color:black;
 	color: white;
-	display: block;
 }
 
-body header img{
-	width: 300px;
+#rogo img{
+	width: 350px;
 	height: 125px;
 }
 
 #parent{
+	width: 100%;
+	display: flex;
 	
+}
+
+#sub{
+	width: 100%;
+	color: white;
+	background-color: black;
+	position: relative;
+}
+
+.pclass{
+	white-space: nowrap;
+	left: 100px;
+	top: 10px;
+	font-size: 30px;
+	position: absolute;
+}
+
+#bigmain{
+	display: flex;
+}
+
+#main img{
+	width: 550px;
+	height: 500px;
+}
+
+#maintext {
+	padding:10px;
+}
+
+#maintext p{
+	width: 600px;
+	font-size: large;
+}
+
+#picture{
+	display: flex;
+}
+
+#go{
+	width: 350px;
+	background-image: url(2022素材/hukidashi.jpg);
+	background-size: 350px;
+	position: relative;
+}
+
+.goclass{
+	white-space: nowrap;
+	left: 80px;
+	top: 40px;
+	color: #ff3e3e;
+	position: absolute;
+}
+
+body{
+	background-color:blanchedalmond;
 }
