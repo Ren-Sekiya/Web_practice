@@ -54,8 +54,9 @@ ul.menu li:hover ul{
 }
 
 #sub{
-	width: auto;
+	width: 300px;
 	color: white;
+	background-color: black;
 	position: relative;
 }
 
@@ -105,19 +106,21 @@ ul.menu li:hover ul{
 }
 
 #fooder{
-	margin: auto;
+	width: 100%;
 	text-align: center;
 	height: 100px;
 	background-color: gainsboro;
-	position: relative;
+	
 }
 
 #fooder p{
-	width: 500px;
-	left: 18%;
-	position: absolute;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
 }
 
 body{
 	background-color:blanchedalmond;
+	min-width: 1150px;
 }
