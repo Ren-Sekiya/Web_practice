@@ -49,15 +49,13 @@ ul.menu li:hover ul{
 }
 
 #parent{
-	width: 100%;
 	display: flex;
-	
+	background-color: black;
 }
 
 #sub{
-	width: 100%;
+	width: auto;
 	color: white;
-	background-color: black;
 	position: relative;
 }
 
@@ -107,7 +105,7 @@ ul.menu li:hover ul{
 }
 
 #fooder{
-	width: 2000px;
+	margin: auto;
 	text-align: center;
 	height: 100px;
 	background-color: gainsboro;
