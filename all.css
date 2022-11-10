@@ -85,6 +85,22 @@ ul.menu li:hover ul{
 	background-color: aliceblue;
 }
 
+.access{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	position: relative;
+	display: flex;
+	width: 800px;
+	background-color: aliceblue;
+}
+
+.access img{
+	width: 250px;
+	height: 150px;
+	margin: 20px;
+}
+
 .mainmenu img{
 	width: 150px;
 	height: 150px;
