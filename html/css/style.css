@@ -93,7 +93,7 @@ ul.menu li:hover ul{
 
 #go{
 	width: 350px;
-	background-image: url(/html/2022/hukidashi.jpg);
+	background-image: url(../2022/hukidashi.jpg);
 	background-size: 350px;
 	position: relative;
 }
