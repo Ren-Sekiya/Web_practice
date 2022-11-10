@@ -84,22 +84,6 @@ ul.menu li:hover ul{
     height: 300px;
 }
 
-#button{
-    display: flex;
-    text-align: center;
-}
-
-#button a{
-    width: 100px;
-    height: 50px;
-    background-color: green;
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-	text-decoration: none;
-	font-weight: bold;
-	display: block;
-}
 
 #fooder{
 	width: 100%;
