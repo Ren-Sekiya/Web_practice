@@ -123,6 +123,12 @@ ul.menu li:hover ul{
 	background-color: aliceblue;
 }
 
+.accessmap img{
+	width: 1000px;
+	height: 450px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
 .access img{
 	width: 250px;
 	height: 150px;
