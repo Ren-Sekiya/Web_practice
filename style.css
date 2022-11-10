@@ -2,7 +2,7 @@
 ul.menu {
 	margin:0px;
 	padding: 0px 0px 0px 0px;
-	background-color: #cc0000;
+	background-color: green;
 }
 
 ul.menu li{
@@ -13,7 +13,7 @@ ul.menu li{
 }
 
 ul.menu a{
-	background-color: #cc0000;
+	background-color: green;
 	color: white;
 	line-height: 40px;
 	text-align: center;
@@ -30,7 +30,7 @@ ul.menu ul{
 }
 
 ul.menu a:hover{
-	background-color: #ffdddd;
+	background-color: lightgreen;
 	color:"dd0000";
 }
 
