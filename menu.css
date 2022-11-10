@@ -68,19 +68,14 @@ ul.menu li:hover ul{
 	position: absolute;
 }
 
-#bigmain{
-    padding-top: 30px;
-    padding-left: 30px;
-	display: flex;
-}
 
-.mainmenu{
+
+#mainmenu{
     display: flex;
 }
 
-.mainmenu img{
-	width: 400px;
-	height: 350px;
+#mainmenu img{
+    width: 200px;
 }
 
 #maintext {
@@ -90,14 +85,6 @@ ul.menu li:hover ul{
 
 #maintext p{
 	width: 600px;
-}
-
-.innerinfo{
-    padding-left: 50px;
-}
-
-.telinfo{
-    padding-left: 60px;
 }
 
 #fooder{
