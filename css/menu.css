@@ -68,28 +68,65 @@ ul.menu li:hover ul{
 	position: absolute;
 }
 
-.main{
+.bread ul{
+	display: flex;
+	list-style-type: none;
+}
+
+.bread ul a{
+	text-decoration: none;
+}
+
+.bread li::after{
+	content: '>';
+	padding: 10px;
+}
+
+.bread li:last-child::after{
+	content: "";
+}
+
+#mainmenu{
     display: flex;
 }
 
-.main img{
+#mainmenu a{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#mainmenu img{
+    padding-bottom: 10px;
     width: 350px;
     height: 300px;
 }
 
-.meal{
-    margin: 30px;
+#button{
+    display: flex;
+    text-align: center;
+}
+
+#button a{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+#button a:hover{
+	background-color: lightgreen;
+	color:"dd0000";
 }
 
 #fooder{
+	width: 100%;
+	text-align: center;
 	height: 50px;
-    display: flex;
-}
-
-.backbutton{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 body{

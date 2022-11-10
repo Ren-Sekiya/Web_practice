@@ -69,59 +69,56 @@ ul.menu li:hover ul{
 }
 
 #bigmain{
-	width: 100%;
-	margin: 30px;
-	display: block;
-	position: relative;
-}
-
-.boord{
-	margin-left: auto;
-	margin-right: auto;
-	position: relative;
+	padding: 30px;
 	display: flex;
-	width: 800px;
-	padding-left: 40px;
-	background-color: lightblue;
 }
 
-.mainmenu{
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
-	position: relative;
+#main img{
+	width: 550px;
+	height: 500px;
+}
+
+#maintext {
+	padding:10px;
+}
+
+#maintext p{
+	width: 600px;
+	font-size: large;
+}
+
+#picture{
 	display: flex;
-	width: 800px;
-	background-color: aliceblue;
 }
 
-.access{
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
+#go{
+	width: 350px;
+	background-image: url(2022素材/hukidashi.jpg);
+	background-size: 350px;
 	position: relative;
-	display: flex;
-	width: 800px;
-	background-color: aliceblue;
 }
 
-.access img{
-	width: 250px;
-	height: 150px;
-	margin: 20px;
-}
-
-.mainmenu img{
-	width: 150px;
-	height: 150px;
-	margin: 20px;
+.goclass{
+	white-space: nowrap;
+	left: 80px;
+	top: 40px;
+	color: #ff3e3e;
+	position: absolute;
 }
 
 #fooder{
 	width: 100%;
-	margin-top: 50px;
 	text-align: center;
-	height: 50px;
+	height: 100px;
+	background-color: gainsboro;
+	
+}
+
+#fooder p.info{
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
 }
 
 body{

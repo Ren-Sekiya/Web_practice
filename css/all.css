@@ -69,35 +69,75 @@ ul.menu li:hover ul{
 }
 
 #bigmain{
-    padding-top: 30px;
-    padding-left: 30px;
+	width: 100%;
+	margin: 30px;
+	display: block;
+	position: relative;
+}
+
+.bread ul{
 	display: flex;
+	list-style-type: none;
 }
 
-#main img{
-	width: 400px;
-	height: 350px;
+.bread ul a{
+	text-decoration: none;
 }
 
-#maintext {
-	padding:10px;
-    padding-left: 100px;
+.bread li::after{
+	content: '>';
+	padding: 10px;
 }
 
-#maintext p{
-	width: 600px;
+.bread li:last-child::after{
+	content: "";
 }
 
-.innerinfo{
-    padding-left: 50px;
+.boord{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: flex;
+	width: 800px;
+	padding-left: 40px;
+	background-color: lightblue;
 }
 
-.telinfo{
-    padding-left: 60px;
+.mainmenu{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	position: relative;
+	display: flex;
+	width: 800px;
+	background-color: aliceblue;
+}
+
+.access{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	position: relative;
+	display: flex;
+	width: 800px;
+	background-color: aliceblue;
+}
+
+.access img{
+	width: 250px;
+	height: 150px;
+	margin: 20px;
+}
+
+.mainmenu img{
+	width: 150px;
+	height: 150px;
+	margin: 20px;
 }
 
 #fooder{
 	width: 100%;
+	margin-top: 50px;
 	text-align: center;
 	height: 50px;
 }

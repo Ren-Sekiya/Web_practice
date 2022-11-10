@@ -1,0 +1,125 @@
+@charset "utf-8";
+ul.menu {
+	margin:0px;
+	padding: 0px 0px 0px 0px;
+	background-color: green;
+}
+
+ul.menu li{
+	width: 125px;
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+}
+
+ul.menu a{
+	background-color: green;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+ul.menu ul{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+ul.menu a:hover{
+	background-color: lightgreen;
+	color:"dd0000";
+}
+
+ul.menu li:hover ul{
+	display: block;
+}
+
+#rogo{
+	background-color:black;
+	color: white;
+}
+
+#rogo img{
+	width: 350px;
+	height: 125px;
+}
+
+#parent{
+	display: flex;
+	background-color: black;
+}
+
+#sub{
+	width: 300px;
+	color: white;
+	background-color: black;
+	position: relative;
+}
+
+.pclass{
+	white-space: nowrap;
+	left: 100px;
+	top: 10px;
+	font-size: 30px;
+	position: absolute;
+}
+
+.bread ul{
+	display: flex;
+	list-style-type: none;
+}
+
+.bread ul a{
+	text-decoration: none;
+}
+
+.bread li::after{
+	content: '>';
+	padding: 10px;
+}
+
+.bread li:last-child::after{
+	content: "";
+}
+
+#bigmain{
+    padding-left: 30px;
+	display: flex;
+}
+
+#main img{
+	width: 400px;
+	height: 350px;
+}
+
+#maintext {
+	padding:10px;
+    padding-left: 100px;
+}
+
+#maintext p{
+	width: 600px;
+}
+
+.innerinfo{
+    padding-left: 50px;
+}
+
+.telinfo{
+    padding-left: 60px;
+}
+
+#fooder{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+}
+
+body{
+	background-color:blanchedalmond;
+	min-width: 1150px;
+}
