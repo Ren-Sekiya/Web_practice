@@ -69,24 +69,31 @@ ul.menu li:hover ul{
 }
 
 #bigmain{
-    padding-top: 30px;
+	width: 100%;
+	margin: 30px;
+	display: block;
+	position: relative;
 }
 
-#mainmenu{
-    display: flex;
+.mainmenu{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	position: relative;
+	display: flex;
+	width: 800px;
+	background-color: aliceblue;
 }
 
-#mainmenu img{
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-    width: 350px;
-    height: 300px;
+.mainmenu img{
+	width: 150px;
+	height: 150px;
+	margin: 20px;
 }
-
 
 #fooder{
 	width: 100%;
+	margin-top: 50px;
 	text-align: center;
 	height: 50px;
 }
