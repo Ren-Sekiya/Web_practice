@@ -69,6 +69,7 @@ ul.menu li:hover ul{
 }
 
 #bigmain{
+	padding: 30px;
 	display: flex;
 }
 
@@ -84,7 +85,6 @@ ul.menu li:hover ul{
 #maintext p{
 	width: 600px;
 	font-size: large;
-	background-color: rgb(193, 255, 70);
 }
 
 #picture{
@@ -114,11 +114,18 @@ ul.menu li:hover ul{
 	
 }
 
-#fooder p{
+#fooder p.info{
 	width: auto;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 15px;
+}
+
+ p.back{
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
 }
 
 body{
