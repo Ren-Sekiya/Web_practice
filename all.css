@@ -75,6 +75,16 @@ ul.menu li:hover ul{
 	position: relative;
 }
 
+.boord{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	display: flex;
+	width: 800px;
+	padding-left: 40px;
+	background-color:lightgreen;
+}
+
 .mainmenu{
 	margin-left: auto;
 	margin-right: auto;

@@ -76,9 +76,12 @@ ul.menu li:hover ul{
     display: flex;
 }
 
-#mainmenu img{
-    margin-left: auto;
+#mainmenu a{
+	margin-left: auto;
     margin-right: auto;
+}
+
+#mainmenu img{
     padding-bottom: 10px;
     width: 350px;
     height: 300px;
